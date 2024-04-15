@@ -47,7 +47,7 @@ final_transform = lambda mean, std: transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize(mean.tolist(), std.tolist())
 ])
-
+```
 
 ## Model Training
 
@@ -59,3 +59,4 @@ To start the training process, run the `train.py` script located in the root dir
 
 ```bash
 python train.py
+```
